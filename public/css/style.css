@@ -1,0 +1,136 @@
+/* all media queries start here */
+
+/* for card to make width full on medium to downward */
+@media only screen and (max-width: 991px) and (min-width: 0px)  {
+    .card{
+        width: 100% !important;
+    }
+     .carouselSize
+{
+    height:inherit !important;
+    
+
+}
+
+
+}
+
+/* for filter and search */
+@media only screen and (max-width: 1500px) and (min-width: 992px)  {
+
+    .wF{
+        width: 30% !important;
+       
+    }
+    .wS{
+        width: 100% !important;
+    }
+}
+
+/* from width */
+@media only screen and (max-width: 1150px) and (min-width: 992px)  {
+
+    .w{
+        width: 350px !important;
+       
+    }
+    
+}
+
+/* for login heading */
+/* from width */
+@media only screen and (max-width: 400px) and (min-width: 0px)  {
+
+    .mS
+    {
+        margin-top: -20px !important;   
+       
+    }
+    .fS
+    {
+        font-size:14px;
+        font-weight:500;
+    }
+
+    
+}
+/* for userRequest button and for card image height */
+@media only screen and (max-width: 454px) and (min-width: 0px)  {
+
+    .pS
+    {
+        margin-top: 4px !important;
+        padding-left: 18px !important;
+        padding-right: 18px !important;
+        
+       
+    }
+    
+    .cardImageHeight
+    {
+        height: 270px !important;;
+    }
+
+    .cardTitle
+{
+    height:auto;
+    white-space: nowrap;
+    overflow: hidden; 
+    text-overflow: ellipsis;
+    font-size:25px !important;
+
+}
+
+.cardDescription
+{
+    height:120px;
+    white-space: wrap;
+    overflow: hidden; 
+    text-overflow: ellipsis;
+    font-size:17px;
+}
+    
+}
+/* media queries end here */
+
+/* style for home */
+.carouselSize
+{
+    height:88vh;
+
+}
+
+.cardImageHeight
+{
+    height:215px;
+}
+
+.cardTitle
+{
+    height:auto;
+    white-space: nowrap;
+    overflow: hidden; 
+    text-overflow: ellipsis;
+}
+
+.cardDescription
+{
+    height:120px;
+    white-space: wrap;
+    overflow: hidden; 
+    text-overflow: ellipsis;
+}
+
+/* end home */
+/* style for login */
+.size
+{
+    height:92.5vh;
+}
+/* style for login end */
+
+/* style for comment */
+#input:focus
+{
+    box-shadow: none !important;
+}
